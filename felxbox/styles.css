@@ -29,7 +29,7 @@ div{
 
 .child{
 
-    background-color: aqua;
+    background-color: red;
     flex-grow: 1;   /*Espacio asignado*/
     width: 100px;
     height: 100px;
