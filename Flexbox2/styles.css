@@ -1,0 +1,73 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.ti1{
+
+    text-align: center;
+    padding-bottom: 30px;
+    color: #780606;
+
+
+
+}
+
+body{
+
+    background: #5e5e5e;
+}
+
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+     
+}
+
+.card{
+
+    width: 300px;
+    height: 300px;
+    border: solid 3px #780606;
+    /* Border Radius sirve para darle la forma circular  */
+    border-radius: 50%;
+    /* Overflox sirve para ajustar la imagen dentro del circulo */
+    overflow: hidden;
+
+    box-shadow: 0px 0px 20px white ;
+    transition: .4s ease-in-out;
+}
+
+.card:hover{
+
+
+    box-shadow: 0px 0px 50px #780606;
+
+}
+
+
+.Image{
+
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    transition: .4s ease-in-out ;
+}
+
+
+/* Sirve para hacer trnasisiones con cualquier objeto de html */
+.Image:hover{
+
+    transform: scale(1.1);
+    transform: scale3d(1.1);
+
+
+
+}
