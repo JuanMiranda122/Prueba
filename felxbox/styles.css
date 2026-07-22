@@ -1,0 +1,37 @@
+body{
+    background-color: brown;
+
+}
+
+div{
+
+    border: solid black;
+}
+
+.container{
+
+    height: 300px;
+    width: auto;
+    display: flex;
+
+    /* Siempre toma la ultima etiqueta en dado caso que sean muchas de las mismas */
+    flex-direction: row;
+    flex-direction: column;
+    gap: 10px;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+    
+
+
+}
+
+.child{
+
+    background-color: aqua;
+    flex-grow: 1;   /*Espacio asignado*/
+    width: 100px;
+    height: 100px;
+
+}

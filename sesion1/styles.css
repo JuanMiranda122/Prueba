@@ -1,0 +1,50 @@
+/* el padding es el que esta dentro del border, solo que es invisible */
+
+p{
+
+    border: solid black;
+
+
+
+
+}
+
+.unicopading{
+
+    border: dashed green;
+
+    /* el 1 significa que el numero que se multiplica por em= 16px siempre */
+    padding: 1em;
+
+
+
+
+}
+
+/*  */
+.toppading{
+
+    padding-top: 1em;
+}
+
+
+.bottompading{
+
+    padding-bottom: 1em ;
+
+
+
+
+}
+
+.leftpadding{
+
+    padding-left: 1em;
+}
+
+
+.rightpadding{
+
+    padding-right: 1em;
+    text-align: right ;
+}
