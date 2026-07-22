@@ -1,0 +1,36 @@
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box ;
+}
+
+header{
+
+    padding: 30px;
+}
+
+
+
+.menu{
+
+    display: flex;
+    justify-content:space-between; 
+    align-items:center;
+
+
+
+
+}
+
+.menu_list{
+    display: flex;
+    gap:21px;
+    padding: 10px;
+    
+}
+
+.menu__item{
+
+    list-style: none;
+}
